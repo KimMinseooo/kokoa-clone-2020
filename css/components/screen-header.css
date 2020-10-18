@@ -14,3 +14,32 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icons {
+  position: relative;
+}
+.screen-header__icons__more {
+  background-color: tomato;
+  display: flex;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 70px;
+  bottom: 22px;
+}
+
+.screen-header__icons__cog {
+  background-color: tomato;
+  display: flex;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 120px;
+  bottom: 22px;
+}
