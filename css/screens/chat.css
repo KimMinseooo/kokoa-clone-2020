@@ -1,0 +1,93 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 11000vh;
+}
+
+/* 스크롤을 내리더라도 화면을 고정으로 하게끔 설정*/
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+}
+/* z-index를 저렇게 설정하면 status-bar 가 header보다 위에 옴*/
+#chat-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+/* 고정된 status-bar와 header때문에 main-chat 내용이 보일려면 margin-top을 줘야함*/
+.main-chat {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message__author {
+  margin-bottom: 5px;
+  display: block; /* message__author는 span이라 안움직여져서 block으로 변경*/
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.message__time,
+.message__author {
+  opacity: 0.8;
+  font-size: 14px;
+}
+/* flex container*/
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+/*message-row--own 안에 message__info의 내용의 순서를 바꿈 */
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}

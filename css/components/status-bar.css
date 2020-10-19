@@ -1,3 +1,4 @@
+/* 스크롤을 내리더라도 화면을 고정으로 하게끔 설정*/
 .status-bar {
   position: fixed;
   top: 0;
