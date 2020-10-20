@@ -43,3 +43,17 @@
   left: 120px;
   bottom: 22px;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+/* 마우스 커서가 요소 위에 올라가 있으면 작동 */
+/* linear 는 애니메이션 효과가 처음부터 끝까지 일정한 속도로 진행 */
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 2s linear infinite;
+}
