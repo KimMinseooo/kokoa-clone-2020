@@ -28,3 +28,27 @@
   justify-content: space-between;
   color: var(--grey-color);
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /* 마우스에 걸리지 않게 빠지도록하는 것 */
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute; /* 모든 화면의 제일 위에 오게끔 하기위해 absolute 설정 */
+  height: 100vh; /*화면 높이의 100%를 의미 */
+  width: 100vw; /*화면 넓이의 100%를 의미 */
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.3s ease-in-out forwards; /*forwards를 하면 마지막 keyframes설정값을 애니메이션이 끝나고도 유지가 되도록함 */
+  animation-delay: 3s;
+}

@@ -115,7 +115,7 @@
   opacity: 0.5;
 }
 .reply input {
-  padding-left: 12px;
+  padding-left: 12 px;
   height: 30px;
   width: 100%; /* column에 width값을 줘야  input도 width를 가질수있음*/
   border: var(--main-border);
