@@ -40,7 +40,7 @@
   border-color: var(--yellow);
 }
 
-#ogin-form input:not([type="submit"]) {
+#login-form input:not([type="submit"]) {
   border-bottom: var(--main-border);
   transition: border-color 0.3s ease-in-out;
 }

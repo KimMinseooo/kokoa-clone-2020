@@ -38,7 +38,7 @@
             <div class="user-component__column">
                 <img src="minseo.png" class="user-component__avatar user-component__avatar--xl" />
                 <div class="user-component__text">
-                    <h4 class="user-component__title">Minseo</h4>
+                    <h4 class="user-component__title js-user-name">Minseo</h4>
                     <h6 class="user-component__subtitle">+ 787 666 999</h6> 
                 </div>
             </div>
@@ -103,6 +103,15 @@
         <span>Your screen is too big </span>
     </div>
     <script src="clock.js"></script>
+    <script>
+        const userName = document.querySelector('.js-user-name');
+        const myStorage = window.localStorage;
+        if(myStorage.getItem('username')){
+            userName.innerText = myStorage.getItem('username');
+        }else{
+            userName.innerText = '???';
+        }
+    </script>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
