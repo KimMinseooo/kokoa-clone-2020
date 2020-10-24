@@ -1,12 +1,20 @@
 .user-component {
-  justify-content: space-between;
   margin-bottom: 15px;
 }
 
 .user-component,
-.user-component__column:first-child {
+.user-component__column {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  gap: 15px;
+}
+.user-component__column:last-child {
+  color: var(--grey-color);
+  justify-content: flex-end;
+  font-size: 12px;
+  padding: 0 10px;
+  gap: 5px;
 }
 
 .user-component__avatar {
@@ -38,18 +46,91 @@
   border-radius: 25px;
 }
 
-.user-component__titl--not-bold {
+.user-component__title--not-bold {
   font-weight: 400;
-}
-
-.user-component__column:last-child {
-  color: var(--grey-color);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.todo-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-box input:checked ~ .user-component__title {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.user-component__desc {
+  display: flex;
+  align-content: center;
+  gap: 5px;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #999;
+}
+
+.user-component__desc i {
+  color: tomato;
+}
+
+.user-component__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.user-component__note {
+  background: tomato;
+  border-radius: 50%;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-component__label {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  position: relative;
+}
+
+.user-component__text input[type="checkbox"] {
+  display: none;
+}
+
+.user-component__text
+  input[type="checkbox"]:checked
+  + .user-component__label::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #999;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }

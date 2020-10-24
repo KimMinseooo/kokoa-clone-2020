@@ -11,6 +11,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/modal.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -19,7 +20,11 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
-
+@import "screens/splash.css";
+html {
+  min-width: 320px;
+  overflow-x: hidden;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
