@@ -5,7 +5,7 @@ HTML & CSS are so much fun !
 ### ToDo : Add to momontum function in Kokoa Clone
 
 - [x] Clock
-- [ ] UserName
-- [ ] ToDoList
+- [x] UserName
+- [x] ToDoList
 - [ ] GetWeather
 - [ ] GetLocation
