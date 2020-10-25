@@ -9,3 +9,4 @@ HTML & CSS are so much fun !
 - [x] ToDoList
 - [ ] GetWeather
 - [ ] GetLocation
+- [ ] Battery Animation
