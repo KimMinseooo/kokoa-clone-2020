@@ -23,6 +23,29 @@
   justify-content: flex-end;
   align-items: center;
 }
-.status-bar__column .fa-battery-full {
+
+@keyframes warning {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.status-bar__column .fa-battery-quarter {
   margin: 0px 5px;
+  color: tomato;
+  opacity: 1;
+  animation: warning 1.2s linear infinite;
+}
+
+.status-bar__column .fa-bolt {
+  margin-right: 5px;
 }
