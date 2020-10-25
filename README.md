@@ -10,4 +10,4 @@ HTML & CSS are so much fun !
 - [ ] GetWeather
 - [ ] GetLocation
 - [x] Battery Animation
-- [ ] Chatting
+- [x] Chatting
