@@ -37,7 +37,9 @@
   padding: 15px 0px;
   border-bottom: var(--main-border);
 }
-
+.open-post:last-child {
+  margin-bottom: 100px;
+}
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;

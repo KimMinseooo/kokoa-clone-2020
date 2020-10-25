@@ -37,7 +37,8 @@
         </div>
     </header>
 
-    <main class="main-screen main-chat">
+    <main class="main-screen main-chat js-chat__container">
+    
         <div class="chat__timestamp">
             Tuesday, June 30, 2020
         </div>
@@ -68,9 +69,9 @@
             <i class="far fa-plus-square fa-lg"></i>
         </div>
         <div class="reply__column">
-            <input type="text" placeholder="Write a message...">
+            <input class="reply__input js-input" type="text" placeholder="Write a message...">
             <i class="far fa-smile-wink fa-lg"></i>
-            <button>
+            <button type="submit" class="js-msgBtn">
                 <i class="fas fa-arrow-up"></i>
             </button>
         </div>
@@ -80,6 +81,7 @@
         <span>Your screen is too big </span>
     </div>
     <script src="clock.js"></script>
+    <script src="sendMsg.js"></script>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
 }
 
 /* 스크롤을 내리더라도 화면을 고정으로 하게끔 설정*/
@@ -115,8 +114,11 @@
   animation: fadeInRight 0.8s linear;
 }
 .message-row--own {
+  margin-bottom: 25px;
   justify-content: flex-end;
+  margin-left: auto;
 }
+
 .message-row--own .message__bubble {
   background-color: var(--yellow);
   border-top-right-radius: 0px;
