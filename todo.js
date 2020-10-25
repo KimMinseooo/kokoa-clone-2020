@@ -78,7 +78,7 @@ function makeTodo(text,checked){
         console.log(`${text}는 체크안됨`)
     }
     label.setAttribute('for',`label_${newId}`);
-    label.classList.add('user-component__label')
+    label.classList.add('user-component__label');
     h4.classList.add('user-component__title');
     h4.innerText = text;
     i.classList.add('far','fa-times-circle','js-delet-btn');

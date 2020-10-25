@@ -73,11 +73,6 @@
   text-decoration: line-through;
 }
 
-.user-component__title {
-  font-weight: 600;
-  font-size: 14px;
-}
-
 .user-component__desc {
   display: flex;
   align-content: center;
