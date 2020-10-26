@@ -57,3 +57,48 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 2s linear infinite;
 }
+
+@keyframes beatSearch {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icons .fa-search:hover {
+  will-change: transform;
+  animation: beatSearch 1s linear infinite;
+}
+
+@keyframes beatMusic {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+  }
+}
+.screen-header__icons .fa-music:hover {
+  animation: beatMusic 1s linear infinite;
+}
+
+@keyframes beatcomment {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+  }
+}
+.screen-header__icons .fa-comment-dots:hover {
+  animation: beatcomment 1s linear infinite;
+}

@@ -34,7 +34,7 @@
 
 /* 고정된 status-bar와 header때문에 main-chat 내용이 보일려면 margin-top을 줘야함*/
 .main-chat {
-  margin-top: 180px;
+  margin-top: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
