@@ -7,7 +7,7 @@ HTML & CSS are so much fun !
 - [x] Clock
 - [x] UserName
 - [x] ToDoList
-- [ ] GetWeather
-- [ ] GetLocation
+- [x] GetWeather
+- [x] GetLocation
 - [x] Battery Animation
 - [x] Chatting
