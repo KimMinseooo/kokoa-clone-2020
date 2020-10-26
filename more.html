@@ -43,6 +43,17 @@
                 </div>
             </div>
             <div class="user-component__column">
+                <div class="js-weather">
+                    <div class="weather__banner">
+                        <span></span>
+                    </div>
+                    <div class="weather__temperature"></div>
+                    <div class="weather__error">
+                        현 위치정보를 가져올 수 없음
+                    </div>
+                </div>
+            </div>
+            <div class="user-component__column">
                 <i class="far fa-comment-alt fa-2x"></i>
             </div>
         </div>
@@ -103,6 +114,7 @@
         <span>Your screen is too big </span>
     </div>
     <script src="clock.js"></script>
+    <script src="weather.js"></script>
     <script>
         const userName = document.querySelector('.js-user-name');
         const myStorage = window.localStorage;

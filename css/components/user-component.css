@@ -9,6 +9,7 @@
   align-items: center;
   gap: 15px;
 }
+
 .user-component__column:last-child {
   color: var(--grey-color);
   justify-content: flex-end;

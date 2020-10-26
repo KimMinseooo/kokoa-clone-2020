@@ -12,6 +12,7 @@
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
 @import "components/modal.css";
+@import "components/weather.css";
 
 /* Screens */
 @import "screens/login.css";
