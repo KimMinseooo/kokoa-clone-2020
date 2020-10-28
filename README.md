@@ -11,3 +11,4 @@ HTML & CSS are so much fun !
 - [x] GetLocation
 - [x] Battery Animation
 - [x] Chatting
+- [ ] Make Setting_more html & CSS

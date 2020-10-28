@@ -1,0 +1,43 @@
+.friends__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friends__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.friends__setting-column:last-child {
+  opacity: 0.5;
+}
+.friends__setting-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friends__setting-column .badge {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.friends__setting span {
+  font-weight: 600;
+}
+
+.friends__setting-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.friends__setting-column h4 {
+  opacity: 0.5;
+  font-size: 14px;
+}

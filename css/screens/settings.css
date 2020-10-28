@@ -16,3 +16,13 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+.settings__setting-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings__setting-column .badge {
+  margin-left: 5px;
+  font-size: 10px;
+}
