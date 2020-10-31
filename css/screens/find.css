@@ -1,4 +1,7 @@
 .recommended-friends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 25px 0px;
   padding: 25px 0px;
   border-top: var(--main-border);
@@ -7,14 +10,6 @@
 
 .recommended-friends__title {
   font-size: 12px;
-  color: var(--grey-color);
-}
-
-.recommended-friends span {
-  margin: 100px 0;
-  display: block;
-  text-align: center;
-  font-size: 18px;
   color: var(--grey-color);
 }
 
@@ -124,4 +119,51 @@
   /* 브라우저에게 어떤 것이 변할 것인지 말해주는 역할 */
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+.recommended-friends__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.recommended-friends__column {
+  position: relative;
+}
+.recommended-friends__name {
+  position: absolute;
+  top: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.recommended-friends__column:last-child {
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes beatPlus {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    color: tomato;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.recommended-friends__column:last-child i:hover {
+  will-change: transform;
+  animation: beatPlus 1s linear infinite;
 }
