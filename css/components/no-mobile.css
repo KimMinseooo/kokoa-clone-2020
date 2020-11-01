@@ -11,6 +11,7 @@
   font-size: 32px;
 }
 /*media query */
+/* 645px 보다 커지면 화면이 보여지게끔 설정*/
 @media screen and (max-width: 645px) {
   #no-mobile {
     display: none;

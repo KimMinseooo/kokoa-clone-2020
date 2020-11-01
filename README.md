@@ -2,6 +2,12 @@
 
 HTML & CSS are so much fun !
 
+### Software Requirements
+
+- Google Chrome
+- Visual Studio Code
+- Github desktop
+
 ### ToDo : Add to momontum function in Kokoa Clone
 
 - [x] Clock
@@ -11,4 +17,4 @@ HTML & CSS are so much fun !
 - [x] GetLocation
 - [x] Battery Animation
 - [x] Chatting
-- [ ] Make Setting_more html & CSS
+- [x] Make Setting_more html & CSS
