@@ -14,8 +14,11 @@
   color: var(--grey-color);
   justify-content: flex-end;
   font-size: 12px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   gap: 5px;
+}
+.user-component__comment {
+  padding: 0 10px;
 }
 
 .user-component__avatar {
@@ -129,4 +132,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+
+.user-component__status-message {
+  margin: 10px;
+  padding: 6px 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+  background-color: white;
+  border-radius: 15px;
 }
