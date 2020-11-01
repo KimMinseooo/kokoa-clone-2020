@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 25px 0px;
-  padding: 25px 0px;
-  border-top: var(--main-border);
-  border-bottom: var(--main-border);
+  margin: 20px 0px;
+  /* padding: 10px 0px; */
+  /* border-top: var(--main-border); */
+  /* border-bottom: var(--main-border); */
 }
 
 .recommended-friends__title {
@@ -17,7 +17,9 @@
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
-  margin-bottom: 25px;
+  /* margin: 25px 0px; */
+  padding: 25px 0px;
+  border-top: var(--main-border);
 }
 
 .open-chat__header span {
@@ -166,4 +168,8 @@
 .recommended-friends__column:last-child i:hover {
   will-change: transform;
   animation: beatPlus 1s linear infinite;
+}
+
+.icon-row {
+  border-bottom: var(--main-border);
 }
