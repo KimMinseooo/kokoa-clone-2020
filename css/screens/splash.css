@@ -16,7 +16,7 @@
   top: 0;
   overflow: hidden;
   z-index: 9999;
-  display: flex;
+  display: flex; /* 아이콘을 가운대에 놓기위해서 flex 설정*/
   justify-content: center;
   align-items: center;
   font-size: 132px;
