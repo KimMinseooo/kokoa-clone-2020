@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+
+.profile__close {
+  display: flex;
+  background-color: #69f0ae;
+}
+
+.profile__close i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.green-box {
+  height: 430px;
+  background-color: #69f0ae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+}
+.line {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.white-box {
+  height: 185px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 100px;
+}
+
+.profile__photo {
+  width: 100px;
+  height: 100px;
+  top: 370px;
+  left: 260px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.profile-message {
+  text-align: center;
+  color: white;
+}
+.images {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10pt;
+}
+
+.profile__name {
+  font-weight: 600;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.chat-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qutate-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

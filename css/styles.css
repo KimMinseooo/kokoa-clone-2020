@@ -24,6 +24,8 @@
 @import "screens/splash.css";
 @import "screens/setting_friends.css";
 @import "screens/setting_version.css";
+@import "screens/profile.css";
+
 html {
   min-width: 320px;
   overflow-x: hidden;
