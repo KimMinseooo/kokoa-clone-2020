@@ -18,7 +18,7 @@ HTML & CSS are so much fun !
 - [x] Battery Animation
 - [x] Chatting
 - [x] Make Setting_more html & CSS
-- [ ] Make Profile HTML & CSS
+- [x] Make Profile HTML & CSS
 
 ### Display Position Summary
 
