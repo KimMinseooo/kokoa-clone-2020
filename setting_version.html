@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings_Version - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column js-clock">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>25%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="settings.html">
+            <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Version</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen version__main">
+       <div class="version__info">
+        <div class="version__icon">
+        <i class="fas fa-comment " aria-hidden="true"></i>
+        <h4 class="version__title">  최신 버전을 사용 중입니다</h4>
+        <h6 class="version__subtitle">현재 버전 9.0.7</h6>
+    </div>     
+       <div>
+           <h4 class="version__type">지원환경 iOS11.0 이상</h4>
+       </div>
+    </div>
+    </main>
+   
+
+    <!-- Navigation Bar-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__viewMore"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Please make your screen small!!!😭</span>
+    </div>
+    <script src="clock.js"></script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
