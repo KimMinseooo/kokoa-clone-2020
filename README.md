@@ -17,8 +17,10 @@ HTML & CSS are so much fun !
 - [x] GetLocation
 - [x] Battery Animation
 - [x] Chatting
-- [x] Make Setting_more html & CSS
+- [x] Make Setting_friends html & CSS
 - [x] Make Profile HTML & CSS
+- [x] Make Setting_version html & CSS
+- [ ] Make Setting_chat html & CSS
 
 ### Display Position Summary
 
