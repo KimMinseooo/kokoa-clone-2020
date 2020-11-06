@@ -25,6 +25,7 @@
 @import "screens/setting_friends.css";
 @import "screens/setting_version.css";
 @import "screens/profile.css";
+@import "screens/setting_chats.css";
 
 html {
   min-width: 320px;

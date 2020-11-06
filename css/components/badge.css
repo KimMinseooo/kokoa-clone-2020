@@ -9,3 +9,11 @@
   color: white;
   font-weight: 600;
 }
+
+.badge_beta {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  color: tomato;
+  font-weight: 600;
+}

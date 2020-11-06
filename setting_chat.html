@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - Kokoa Clone</title>
+    <title>Settings_Chats - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,12 +24,12 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="settings.html">
             <i class="fas fa-angle-left fa-3x"></i>
         </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Settings</h1>
+            <h1 class="alt-header__title">Chats</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
@@ -37,64 +37,63 @@
     </header>
 
     <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                <i class="fas fa-bullhorn"></i>
-                <span>Notices</span>
+        <ul class="settings-list__chats">
+            <li class="chats__setting">
+                <div class="chats__setting-column">
+                <span>Chat Backup</span>
             </div>
-            <div class="settings__setting-column"></div>
+            
             </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                <i class="fas fa-flask"></i>
-                <span>Kokoa Lab</span>
-                <div class="badge">N</div>
+            <li class="chats__setting">
+                <div class="chats__setting-column">
+                <span>Chat/Media Backup</span>
+                <span class="badge_beta">beta</span>
             </div>
-            <div class="settings__setting-column"></div>
             </li>
-            <a href="setting_version.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                <i class="fas fa-info-circle"></i>
-                <span>Version</span>
+            
+            <li class="chats__setting">
+                <div class="chats__setting-column">
+                <h4>chatroom</h4>
+                <span>My Open Chatrooms</span>
+            </div>   
+            </li>
+
+            <li class="chats__setting">
+                <div class="chats__setting-column">
+                    <h4>Media</h4>
+                <span>Image Resolution</span>
             </div>
-            <div class="settings__setting-column">Latest Version</div>
+
+            <div class="chats__setting-column">
+                <h4>Standard resolution</h4>
+        </div>
             </li>
-        </a>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-unlock-alt"></i>
-                <span>Privacy</span>
+            <li class="chats__setting">
+                <div class="chats__setting-column">
+                <span>Video Resolution</span>
             </div>
-            <div class="settings__setting-column"></div>
+
+            <div class="chats__setting-column">
+                <h4>Standard resolution</h4>
+        </div>
             </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-bell"></i>
-                <span>Notifications</span>
+            <li class="chats__setting">
+                <div class="chats__setting-column">
+                    <h4>Reply Mode</h4>
+                <span>Swipe to Reply</span>
+                <h5>Swipe left on the message to reply.</h5>
             </div>
-            <div class="settings__setting-column"></div>
-            </li>
-            <a href="setting_friends.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-user"></i>
-                <span>Friends</span>
-                <div class="badge">N</div>
+
+            <div class="chats__setting-column">
+                <input type="checkbox" id="switch1" name="switch1" class="input__on-off">
+                 <label for="switch1" class="label__on-off">
+                      <span class="marble"></span> 
+                      <span class="on"></span> 
+                      <span class="off"></span>
+                     </label>
+
             </div>
-            <div class="settings__setting-column"></div>
             </li>
-        </a>
-            <a href="setting_chat.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-comment"></i>
-                <span>Chats</span>
-            </div>
-            <div class="settings__setting-column"></div>
-            </li>
-        </a>
         </ul>
     </main>
    
