@@ -20,7 +20,7 @@ HTML & CSS are so much fun !
 - [x] Make Setting_friends html & CSS
 - [x] Make Profile HTML & CSS
 - [x] Make Setting_version html & CSS
-- [ ] Make Setting_chat html & CSS
+- [x] Make Setting_chat html & CSS
 
 ### Display Position Summary
 
