@@ -31,6 +31,7 @@
 .friends__setting-column h4 {
   opacity: 0.5;
   font-size: 14px;
+  margin-top: 5px;
 }
 .friends__setting-column h4 i {
   opacity: 1;
