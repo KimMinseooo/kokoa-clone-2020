@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - Kokoa Clone</title>
+    <title>Settings_Privacy - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,12 +24,12 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="settings.html">
             <i class="fas fa-angle-left fa-3x"></i>
         </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Settings</h1>
+            <h1 class="alt-header__title">Privacy</h1>
         </div>
         <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
@@ -37,66 +37,63 @@
     </header>
 
     <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                <i class="fas fa-bullhorn"></i>
-                <span>Notices</span>
+        <ul class="settings-list__privacy">
+            <li class="privacy__setting">
+                <div class="privacy__setting-column">
+                    <h4>Personal Info</h4>
+                <span>Kakao Account</span>
             </div>
-            <div class="settings__setting-column"></div>
+            
             </li>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                <i class="fas fa-flask"></i>
-                <span>Kokoa Lab</span>
-                <div class="badge">N</div>
+            <li class="privacy__setting">
+                <div class="privacy__setting-column">
+                <span>Manage My Personal Info</span>
+                
             </div>
-            <div class="settings__setting-column"></div>
             </li>
-            <a href="setting_version.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                <i class="fas fa-info-circle"></i>
-                <span>Version</span>
+            
+            <li class="privacy__setting">
+                <div class="privacy__setting-column">
+                <h4>Security</h4>
+                <span>Manage Devices</span>
+            </div>   
+            </li>
+
+            <li class="privacy__setting">
+                <div class="privacy__setting-column">
+                <span>Lock Screen</span>
             </div>
-            <div class="settings__setting-column">Latest Version</div>
+
+            <div class="privacy__setting-column">
+                <h4>Off</h4>
+        </div>
             </li>
-        </a>
-        <a href="setting_privacy.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="fas fa-unlock-alt"></i>
-                <span>Privacy</span>
+            <li class="privacy__setting">
+                <div class="privacy__setting-column">
+                    <h4>Transactions</h4>
+                <span>My Wallet</span>
             </div>
-            <div class="settings__setting-column"></div>
+
+            <div class="privacy__setting-column">
+        </div>
             </li>
-        </a>
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-bell"></i>
-                <span>Notifications</span>
+            <li class="privacy__setting">
+                <div class="privacy__setting-column">
+                    <h4>Ads/Search</h4>
+                <span>Save Recent Searches</span>
+                <h5>Show your recent searches in the search box.</h5>
             </div>
-            <div class="settings__setting-column"></div>
-            </li>
-            <a href="setting_friends.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-user"></i>
-                <span>Friends</span>
-                <div class="badge">N</div>
+
+            <div class="privacy__setting-column">
+                <input type="checkbox" id="switch1" name="switch1" class="input__on-off">
+                 <label for="switch1" class="label__on-off">
+                      <span class="marble"></span> 
+                      <span class="on"></span> 
+                      <span class="off"></span>
+                     </label>
+
             </div>
-            <div class="settings__setting-column"></div>
             </li>
-        </a>
-            <a href="setting_chat.html">
-            <li class="settings__setting">
-                <div class="settings__setting-column">
-                    <i class="far fa-comment"></i>
-                <span>Chats</span>
-            </div>
-            <div class="settings__setting-column"></div>
-            </li>
-        </a>
         </ul>
     </main>
    
