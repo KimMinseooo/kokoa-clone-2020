@@ -27,6 +27,8 @@
 @import "screens/profile.css";
 @import "screens/setting_chats.css";
 @import "screens/setting_privacy.css";
+@import "screens/setting_notification.css";
+
 html {
   min-width: 320px;
   overflow-x: hidden;
