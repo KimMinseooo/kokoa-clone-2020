@@ -1,0 +1,56 @@
+.kokoaLab__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kokoaLab_icon {
+  width: 200px;
+  height: 130px;
+}
+
+.kokoaLab__column_text {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.kokoaLab__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kokoaLab__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.kokoaLab__setting-column .badge {
+  margin-left: 5px;
+  font-size: 10px;
+}
+.kokoaLab__setting span {
+  font-weight: 600;
+}
+
+.kokoaLab__setting-column:first {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.kokoaLab__setting-column h4 {
+  opacity: 0.5;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.kokoaLab__setting-column h4 i {
+  opacity: 1;
+  margin-left: 15px;
+}

@@ -28,7 +28,7 @@
 @import "screens/setting_chats.css";
 @import "screens/setting_privacy.css";
 @import "screens/setting_notification.css";
-
+@import "screens/setting_kokoaLab.css";
 html {
   min-width: 320px;
   overflow-x: hidden;

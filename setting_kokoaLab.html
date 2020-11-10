@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings_Friend - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column js-clock">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>25%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="settings.html">
+            <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Kokoa Lab</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="kokoaLab__column">
+        <img class="kokoaLab_icon" src="imgs/kokoaLab_icon.jpg" />
+        <span class="kokoaLab__column_text">Welcome to Kokoa Lab.</span>
+    </div>
+        <ul class="settings-list__kokoaLab">
+            <li class="kokoaLab__setting">
+                <div class="kokoaLab__setting-column">
+                <span>Voice Mode</span>
+               
+            </div>
+            <div class="kokoaLab__setting-column">
+                <h4>Off</h4>  
+            </div>
+
+            </li>
+            <li class="kokoaLab__setting">
+                <div class="kokoaLab__setting-column">
+                <span>Snowing Background</span>
+                <h4>You may disable snowing background if you wish to focus on your chatting.</h4>
+            </div>
+            <div class="kokoaLab__setting-column">
+                <input type="checkbox" id="switch1" name="switch1" class="input__on-off">
+                <label for="switch1" class="label__on-off">
+                     <span class="marble"></span> 
+                     <span class="on"></span> 
+                     <span class="off"></span>
+                    </label>
+            </div>
+            </li>
+            <li class="kokoaLab__setting">
+                <div class="kokoaLab__setting-column">
+                <span>Shake and Scan</span>
+                <h4>Shake your device twice to scan QR code right away.</h4>
+            </div>
+            <div class="kokoaLab__setting-column">
+                <input type="checkbox" id="switch2" name="switch2" class="input__on-off">
+                <label for="switch2" class="label__on-off">
+                     <span class="marble"></span> 
+                     <span class="on"></span> 
+                     <span class="off"></span>
+                    </label>
+            </div>
+            </li>
+            <li class="kokoaLab__setting">
+                <div class="kokoaLab__setting-column">
+                <span>Separate Chat List</span>
+                <h4>View the list of open chats and regular chats separately.</h4>
+            </div>
+            <div class="kokoaLab__setting-column">
+                <input type="checkbox" id="switch3" name="switch3" class="input__on-off">
+                <label for="switch3" class="label__on-off">
+                     <span class="marble"></span> 
+                     <span class="on"></span> 
+                     <span class="off"></span>
+                    </label>
+            </div>
+            </li>
+        </ul>
+    </main>
+   
+
+    <!-- Navigation Bar-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
+                <span class="nav__viewMore"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Please make your screen small!!!😭</span>
+    </div>
+    <script src="clock.js"></script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
